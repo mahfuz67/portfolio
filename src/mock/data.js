@@ -93,7 +93,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'facebook',
-      url: 'https://web.facebook.com/dolapo.muhammed.58',
+      url: 'https://www.facebook.com/efusanyaayomide',
     },
     {
       id: nanoid(),
