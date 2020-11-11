@@ -73,6 +73,16 @@ export const projectsData = [
     url: 'https://clone-10ad0.web.app/',
     repo: 'https://github.com/Regedit-msc/amazon-clone-react', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'infinite.png',
+    title: 'INFINITE-SCROLL-REACT',
+    info:
+      'This is an infinite image gallery which fetches data from an unsplash-js server I set up',
+    info2: 'REACT | UNSPLASH-API  |  NODE  |  EXPRESS  |  HEROKU ',
+    url: 'https://youthful-goldberg-e4a2d3.netlify.app/',
+    repo: 'https://github.com/Regedit-msc/client-infinite-scroll', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
