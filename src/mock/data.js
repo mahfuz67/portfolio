@@ -33,7 +33,7 @@ export const projectsData = [
     title: 'BloggerVille',
     info: 'This is a CMS for blogging with full CRUD user priviledges.',
     info2: 'NODEJS  |  EXPRESS  |  MONGODB  |  EJS  | BOOTSTRAP  |  AJAX  |  JQUERY',
-    url: 'https://agile-journey-44785.herokuapp.com/',
+    url: 'https://bloggerville.herokuapp.com/',
     repo: 'https://github.com/Regedit-msc/BloggerVille', // if no repo, the button will not show up
   },
   {
