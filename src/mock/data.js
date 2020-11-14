@@ -79,7 +79,7 @@ export const projectsData = [
     title: 'INFINITE-SCROLL-REACT',
     info:
       'This is an infinite image gallery which fetches data from an unsplash-js server I set up.',
-    info2: 'REACT | UNSPLASH-API  |  NODE  |  EXPRESS  |  HEROKU  |  NETLIFY ',
+    info2: 'REACT | UNSPLASH-API  |  NODE  |  EXPRESS  |  HEROKU  |  NETLIFY |  GITHUB',
     url: 'https://youthful-goldberg-e4a2d3.netlify.app/',
     repo: 'https://github.com/Regedit-msc/client-infinite-scroll', // if no repo, the button will not show up
   },
@@ -99,6 +99,15 @@ export const projectsData = [
     info: 'Porfolio with blog (Full CRUD)',
     info2: 'EJS | MONGODB  |  NODE  |  EXPRESS  |  HEROKU   ',
     url: 'https://wumis-blog.herokuapp.com/',
+    repo: 'https://github.com/Regedit-msc/', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'playlist.png',
+    title: 'MUSIC-PLAYLIST-REACT',
+    info: 'Music playlist',
+    info2: 'REACT |  NETLIFY  |  GITHUB   ',
+    url: 'https://reg-playlist.netlify.app',
     repo: 'https://github.com/Regedit-msc/', // if no repo, the button will not show up
   },
 ];
