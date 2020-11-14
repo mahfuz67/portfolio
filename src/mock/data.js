@@ -83,6 +83,24 @@ export const projectsData = [
     url: 'https://youthful-goldberg-e4a2d3.netlify.app/',
     repo: 'https://github.com/Regedit-msc/client-infinite-scroll', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'chattie.png',
+    title: 'CHATTIE',
+    info: 'This is a a real time chat app with full user authentication.',
+    info2: 'EJS | SOCKET.IO  |  NODEJS  |  EXPRESS  |  HEROKU  | NONGODB  ',
+    url: 'https://ay-regedit-chat.herokuapp.com/chat',
+    repo: 'https://github.com/Regedit-msc/', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'wumisblog.png',
+    title: 'PORTFOLO + BLOG',
+    info: 'Porfolio with blog (Full CRUD)',
+    info2: 'EJS | MONGODB  |  NODE  |  EXPRESS  |  HEROKU   ',
+    url: 'https://wumis-blog.herokuapp.com/',
+    repo: 'https://github.com/Regedit-msc/', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
