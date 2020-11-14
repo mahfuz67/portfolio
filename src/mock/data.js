@@ -89,7 +89,7 @@ export const projectsData = [
     title: 'CHATTIE',
     info: 'This is a a real time chat app with full user authentication.',
     info2: 'EJS | SOCKET.IO  |  NODEJS  |  EXPRESS  |  HEROKU  | NONGODB  ',
-    url: 'https://ay-regedit-chat.herokuapp.com/chat',
+    url: 'https://ay-regedit-chat.herokuapp.com/',
     repo: 'https://github.com/Regedit-msc/', // if no repo, the button will not show up
   },
   {
