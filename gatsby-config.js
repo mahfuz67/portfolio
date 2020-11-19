@@ -29,6 +29,9 @@ module.exports = {
         theme_color: `#02aab0`,
         display: `standalone`,
         icon: 'src/images/android-chrome-192x192.png',
+        icon_options: {
+          purpose: `maskable`,
+        },
       },
     },
   ],
