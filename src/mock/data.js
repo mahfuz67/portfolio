@@ -12,17 +12,17 @@ export const heroData = {
   title: 'Hello,my name is ',
   name: 'Efusanya Ayomide',
   subtitle: 'I am a full stack mobile and web Developer.',
-  cta: 'About me',
+  cta: 'Know more ...',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'profileme1.jpg',
   paragraphOne: 'I am a student of the University Of Lagos.',
   paragraphTwo: `Currently studying mechanical engineering. 
-    I write mostly in Javascript and php for web development (front and backend JS), Kotlin and Flutter(front and backend) for mobile.`,
+    I write mostly in Javascript(front and backend JS) and PHP for web development, Kotlin and Flutter(front and backend) for mobile.`,
   paragraphThree: 'I am interested in all kinds of technology.',
-  resume: '', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/15JmIkvjKSmlu2pRw75j4hSQ7guhgpASY/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA

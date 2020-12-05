@@ -26,7 +26,7 @@ const Footer = () => {
               return (
                 <a
                   key={id}
-                  href={url || 'https://github.com/cobidev/gatsby-simplefolio'}
+                  href={url || 'https://github.com/regedit-msc'}
                   rel="noopener noreferrer"
                   target="_blank"
                   aria-label={name}
@@ -39,8 +39,8 @@ const Footer = () => {
         <hr />
         <p className="footer__text">
           © {new Date().getFullYear()} - Template developed by{' '}
-          <a href="https://github.com/cobidev" target="_blank" rel="noopener noreferrer">
-            Regedit
+          <a href="https://github.com/regedit-msc" target="_blank" rel="noopener noreferrer">
+            Me [Emmanuel].
           </a>
         </p>
 
