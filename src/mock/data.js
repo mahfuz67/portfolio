@@ -22,7 +22,7 @@ export const aboutData = {
   paragraphTwo: `Currently studying mechanical engineering. 
     I write mostly in Javascript(front and backend JS) and PHP for web development, Kotlin and Flutter(front and backend) for mobile.`,
   paragraphThree: 'I am interested in all kinds of technology.',
-  resume: 'https://drive.google.com/file/d/15JmIkvjKSmlu2pRw75j4hSQ7guhgpASY/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1ARdrDNw4mmRqFU9jhtZmhv7svMKtOHkR/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
