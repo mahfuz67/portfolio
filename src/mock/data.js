@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profileme1.jpg',
+  img: 'index.png',
   paragraphOne: 'I am a student of the University Of Lagos.',
   paragraphTwo: `Currently studying mechanical engineering. 
     I write mostly in Javascript(front and backend JS) and PHP for web development, Kotlin and Flutter(front and backend) for mobile.`,
