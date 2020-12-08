@@ -121,7 +121,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: '2.png',
+    img: 'dark.png',
     title: 'Regedit-theme-dark',
     info: 'An aesthetic black theme to keep you coding for longer hours.',
     info2: 'TypeScript | NodeJS   ',
