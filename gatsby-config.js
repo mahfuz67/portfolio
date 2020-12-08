@@ -26,7 +26,7 @@ module.exports = {
         short_name: `Ayfolio`,
         start_url: `/`,
         background_color: `#fff`,
-        theme_color: `#02aab0`,
+        theme_color: `#0d081c`,
         display: `standalone`,
         icon: 'src/images/android-chrome-192x192.png',
         icon_options: {

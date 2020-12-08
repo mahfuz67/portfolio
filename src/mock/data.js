@@ -110,6 +110,33 @@ export const projectsData = [
     url: 'https://reg-playlist.netlify.app',
     repo: 'https://github.com/Regedit-msc/', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'regedit-theme.png',
+    title: 'Regedit-theme',
+    info: 'A beautiful purple theme for vscode.',
+    info2: 'TypeScript | NodeJS   ',
+    url: 'https://github.com/regedit-msc/regedit-theme',
+    repo: 'https://github.com/Regedit-msc/regedit-theme', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: '2.png',
+    title: 'Regedit-theme-dark',
+    info: 'An aesthetic black theme to keep you coding for longer hours.',
+    info2: 'TypeScript | NodeJS   ',
+    url: 'https://github.com/regedit-msc/regedit-theme/tree/true-dark',
+    repo: 'https://github.com/Regedit-msc/regedit-theme/tree/true-dark', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'url.png',
+    title: 'Url shortener',
+    info: 'A url shortener to reduce the length of long urls.',
+    info2: 'Express | NodeJS  | Heroku | Mongodb',
+    url: 'https://urlshortener-regedit.herokuapp.com/',
+    repo: 'https://github.com/Regedit-msc/url-shortener-node', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
