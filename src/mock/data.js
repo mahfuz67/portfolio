@@ -94,8 +94,7 @@ export const projectsData = [
     title: 'TRUST MOBILE',
     info: 'The official mobile banking application for Living Trust Mortgage bank.',
     info2: 'FLUTTER | ASP.NET',
-    url: 'https://wumis-blog.herokuapp.com/',
-    repo: 'https://github.com/Regedit-msc/', // if no repo, the button will not show up
+    url: 'https://play.google.com/store/apps/details?id=com.mdot.livingtrust',
   },
   {
     id: nanoid(),
@@ -103,8 +102,7 @@ export const projectsData = [
     title: 'UNNMFB MOBILE',
     info: 'The official mobile banking application for University of Nigerial Microfinance Bank.',
     info2: 'FLUTTER',
-    url: 'https://reg-playlist.netlify.app',
-    repo: 'https://github.com/Regedit-msc/', // if no repo, the button will not show up
+    url: 'https://play.google.com/store/apps/details?id=com.mdot.unnmobile',
   },
   {
     id: nanoid(),
@@ -148,6 +146,7 @@ export const projectsData = [
     info:
       'Patner central is the admin interface for the traveltube collection of apps. It allows restaurants keep track of , accept and manage orders, manage their store details in the consumer app.',
     info2: 'Laravel | GETX | FIREBASE MESSAGING ',
+    url: 'https://play.google.com/store/apps/details?id=com.traveltube.order_tracker',
   },
   {
     id: nanoid(),
