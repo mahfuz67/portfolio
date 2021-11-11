@@ -37,17 +37,9 @@ const About = () => {
           <Col md={6} sm={12}>
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
-                <p className="about-wrapper__info-text">
-                  {paragraphOne ||
-                    'I am a student of the University Of Lagos.'}
-                </p>
-                <p className="about-wrapper__info-text">
-                  {paragraphTwo ||
-                    ' I write mostly in Javascript(front and backend JS) and PHP for web development, Kotlin and Flutter(front and backend) for mobile.'}
-                </p>
-                <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
-                </p>
+                <p className="about-wrapper__info-text">{paragraphOne || ''}</p>
+                <p className="about-wrapper__info-text">{paragraphTwo || ''}</p>
+                <p className="about-wrapper__info-text">{paragraphThree || ''}</p>
                 {resume && (
                   <span className="d-flex mt-3">
                     <a

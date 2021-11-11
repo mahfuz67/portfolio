@@ -11,113 +11,108 @@ export const headData = {
 export const heroData = {
   title: 'Hello,my name is ',
   name: 'Efusanya Ayomide Emmanuel.',
-  subtitle: 'I am a full stack mobile and web Developer.',
+  subtitle: 'I am a full stack developer with hands on experience using many technologies.',
   cta: 'Know more ...',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'index.png',
-  paragraphOne: 'I am a student of the University Of Lagos.',
-  paragraphTwo: `Currently studying mechanical engineering. 
-    I write mostly in Javascript(front and backend JS) and PHP for web development, Kotlin and Flutter(front and backend) for mobile.`,
-  paragraphThree: 'I am interested in all kinds of technology.',
+  // paragraphOne: 'I .',
+  // paragraphTwo: ``,
+  paragraphOne:
+    'I have experience working across various tech stacks using various languages and their respective frameworks to facilitate various forms of web and mobile development.',
   resume: 'https://drive.google.com/file/d/1ARdrDNw4mmRqFU9jhtZmhv7svMKtOHkR/view?usp=sharing', // if no resume, the button will not show up
 };
 
-// PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project1.png',
-    title: 'BloggerVille',
-    info: 'This is a CMS for blogging with full CRUD user priviledges.',
-    info2: 'NODEJS  |  EXPRESS  |  MONGODB  |  EJS  | BOOTSTRAP  |  AJAX  |  JQUERY',
-    url: 'https://bloggerville.herokuapp.com/',
-    repo: 'https://github.com/Regedit-msc/BloggerVille', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'unilagweb.png',
-    title: 'UNILAG-LANDING',
-    info: 'This is a clone of the unilag website landing page.',
-    info2: 'HTML  |  CSS  ',
-    url: 'https://regedit-msc.github.io/unilagClone',
-    repo: 'https://github.com/Regedit-msc/unilag-website-clone', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'ytdl.png',
-    title: 'YOUTUBE VIDEO/AUDIO DOWNLOADER',
-    info: 'This is a website for downloading youtube content.',
-    info2: 'NODEJS  |  EXPRESS  |  HEROKU  |  YTDL-CORE  ',
-    url: 'https://frightening-alien-47733.herokuapp.com/',
-    repo: 'https://github.com/Regedit-msc/youtube-dl-node', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'pizza.png',
-    title: "AY's PIZZA",
-    info: 'This is a website for tracking pizza orders (FULL CRUD).',
-    info2: 'PHP  |  APACHE  |  HEROKU ',
-    url: 'https://shrouded-gorge-22697.herokuapp.com/',
-    repo: 'https://github.com/Regedit-msc/ays-pizza', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'amazon.png',
-    title: 'AMAZON CLONE',
+    img: 'live_gists.png',
+    title: 'Live-Gists',
     info:
-      'This is a clone of the former amazon website (FULL USER VALIDATION AND AUTHENTICATION , ECOMMERCE CARTING SYSTEM)',
-    info2: 'REACT | FIREBASE ',
-    url: 'https://clone-10ad0.web.app/',
-    repo: 'https://github.com/Regedit-msc/amazon-clone-react', // if no repo, the button will not show up
+      'Live-Gists is an online realtime code collaboration,sharing and social media platform. It supports realtime pair coding with a role based system for editing and viewing. Share code snippets with the click of a button, like others gists, chat with other users and receive notifications on activities and messages through an always online push server, view feed and posts of other users you are following all in one platform.',
+    info2:
+      'NODEJS  |  EXPRESS  |  REDIS |  SOCKETIO  | REACT  | WEBPUSH| GITHUB-OAUTH | GOOGLE-OAUTH',
+    url: 'https://live-gists.netlify.app',
   },
   {
     id: nanoid(),
-    img: 'infinite.png',
-    title: 'INFINITE-SCROLL-REACT',
+    img: 'abbey_bank.png',
+    title: 'ABBEY INTERNET BANKING',
+    info: 'Online banking for Abbey mortgage bank.',
+    info2: 'ASP.NET 4.6 | JAVASCRIPT | SERVICE-WORKERS  ',
+  },
+  {
+    id: nanoid(),
+    img: 'videoo.png',
+    title: 'VIDEEO',
     info:
-      'This is an infinite image gallery which fetches data from an unsplash-js server I set up.',
-    info2: 'REACT | UNSPLASH-API  |  NODE  |  EXPRESS  |  HEROKU  |  NETLIFY |  GITHUB',
-    url: 'https://youthful-goldberg-e4a2d3.netlify.app/',
-    repo: 'https://github.com/Regedit-msc/client-infinite-scroll', // if no repo, the button will not show up
+      'Video call platform much akin to google meet. Share your screen,enable or diable camera and microphone.',
+    info2: 'NODEJS  |  EXPRESS  |  HEROKU  |  REACT | WEBRTC',
+    url: 'https://videeo.netlify.app/',
   },
   {
     id: nanoid(),
-    img: 'chattie.png',
-    title: 'CHATTIE',
-    info: 'This is a a real time chat app with full user authentication.',
-    info2: 'EJS | SOCKET.IO  |  NODEJS  |  EXPRESS  |  HEROKU  | NONGODB  ',
-    url: 'https://ay-regedit-chat.herokuapp.com/',
-    repo: 'https://github.com/Regedit-msc/', // if no repo, the button will not show up
+    img: 'science_guru_dash.png',
+    title: 'SCIENCE GURU DASHBOARD',
+    info: `This is the dashboard for the sciece facts guru app built for a client.It allows to interface the  server to update database entries and create notifications. Features include sending big picture notifications to users through fcm, oauth login,general crud.`,
+    info2: 'NODEJS |  EXPRESS  |  TYPESCRIPT | APOLLO | FIREBASE ADMIN ',
+    url: 'https://science-guru.netlify.app',
   },
   {
     id: nanoid(),
-    img: 'wumisblog.png',
-    title: 'PORTFOLO + BLOG',
-    info: 'Porfolio with blog (Full CRUD)',
-    info2: 'EJS | MONGODB  |  NODE  |  EXPRESS  |  HEROKU   ',
+    img: 'campus_x.jpeg',
+    title: 'CAMPUS X',
+    info:
+      'This is a social media platform for students in Nigerian universities. It aims at connecting students regardless of instutution with the latest happenings and trends in other unis.',
+    info2: 'NODEJS | EXPRESSS | TYPESCRIPT | SENTRY | FIREBASE | CIRCLECI | FLUTTER | GETX',
+    url: 'https://play.google.com/store/apps/details?id=com.insightx.campusx1',
+  },
+  {
+    id: nanoid(),
+    img: 'manga_api.png',
+    title: 'MANGA API',
+    info:
+      'This is a graphql based open source manga api made from a scraper I wrote and published on npm.',
+    info2: 'TYPESCRIPT |APOLLO | NODE  |  EXPRESS  |  HEROKU  |   GITHUB',
+    url: 'https://regedit-manga-api.herokuapp.com/',
+  },
+  {
+    id: nanoid(),
+    img: 'manga_api_scraper.png',
+    title: 'MANGA RAW SCRAPER',
+    info:
+      'A manga scraper which exposes functions to get various datasets published as an npm package.',
+    info2: 'NODEJS  |  EXPRESS  | NPM  ',
+    url: 'https://www.npmjs.com/package/@regedit-msc/manga_raw_scraper',
+    repo: 'https://github.com/Regedit-msc/manga_raw_scraper', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'trust_mobile.jpeg',
+    title: 'TRUST MOBILE',
+    info: 'The official mobile banking application for Living Trust Mortgage bank.',
+    info2: 'FLUTTER | ASP.NET',
     url: 'https://wumis-blog.herokuapp.com/',
     repo: 'https://github.com/Regedit-msc/', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'playlist.png',
-    title: 'MUSIC-PLAYLIST-REACT',
-    info: 'Music playlist',
-    info2: 'REACT |  NETLIFY  |  GITHUB   ',
+    img: 'unn.jpeg',
+    title: 'UNNMFB MOBILE',
+    info: 'The official mobile banking application for University of Nigerial Microfinance Bank.',
+    info2: 'FLUTTER',
     url: 'https://reg-playlist.netlify.app',
     repo: 'https://github.com/Regedit-msc/', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'regedit-theme.png',
-    title: 'Regedit-theme',
-    info: 'A beautiful purple theme for vscode.',
-    info2: 'TypeScript | NodeJS   ',
-    url: 'https://github.com/regedit-msc/regedit-theme',
-    repo: 'https://github.com/Regedit-msc/regedit-theme', // if no repo, the button will not show up
+    img: 'science_guru.jpeg',
+    title: 'Science facts Guru',
+    info:
+      'Science facts guru has over 2000 local facts, receive daily facts notications, share and even download fact videos and images.',
+    info2: 'TypeScript | NodeJS | FLUTTER | RIVERPOD ',
   },
   {
     id: nanoid(),
@@ -130,12 +125,49 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'url.png',
-    title: 'Url shortener',
-    info: 'A url shortener to reduce the length of long urls.',
-    info2: 'Express | NodeJS  | Heroku | Mongodb',
-    url: 'https://urlshortener-regedit.herokuapp.com/',
-    repo: 'https://github.com/Regedit-msc/url-shortener-node', // if no repo, the button will not show up
+    img: 'regedit-theme.png',
+    title: 'Regedit-theme',
+    info: 'An aesthetic purplish theme to keep you coding for longer hours.',
+    info2: 'TypeScript | NodeJS   ',
+    url: 'https://github.com/regedit-msc/regedit-theme',
+    repo: 'https://github.com/Regedit-msc/regedit-theme', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'webcomic.jpeg',
+    title: 'Webcomic',
+    info:
+      'Webcomic is a manga reader app. Bookmark favourites, crete collections and share links to them(Deep links), dowload and read chapters offline,push notification when comic is updated(JOB).Easily witch themes.',
+    info2:
+      'Express | NodeJS  | TypeScript | FLUTTER-BLOC | GRAPHQL(ALL ENDPOINTS)| FIREBASE MESSAGING | FIREBASE DYNAMIC LINKS',
+  },
+  {
+    id: nanoid(),
+    img: 'travel_tubr.jpeg',
+    title: 'Patner Central',
+    info:
+      'Patner central is the admin interface for the traveltube collection of apps. It allows restaurants keep track of , accept and manage orders, manage their store details in the consumer app.',
+    info2: 'Laravel | GETX | FIREBASE MESSAGING ',
+  },
+  {
+    id: nanoid(),
+    img: 'r_launcher.jpeg',
+    title: 'R Launcher',
+    info:
+      'R Launcher is a standalone mobile app launcher built in flutter. It is open source and work is still in progress.',
+    info2: 'FLUTTER | DART | KOTLIN',
+
+    repo: 'https://github.com/Regedit-msc/r_launcher',
+  },
+  {
+    id: nanoid(),
+    img: 'ankora.png',
+    title: 'Ankora',
+    info:
+      'Calendar dashboard interface for nurses to view, create and edit appointment of doctors. Interview Test',
+    info2: 'REACT | STYLED-COMPONENTS | CONTEXT-API',
+
+    repo: 'https://github.com/Regedit-msc/interview-test',
   },
 ];
 
