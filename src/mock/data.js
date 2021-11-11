@@ -76,7 +76,7 @@ export const projectsData = [
     info:
       'This is a graphql based open source manga api made from a scraper I wrote and published on npm.',
     info2: 'TYPESCRIPT |APOLLO | NODE  |  EXPRESS  |  HEROKU  |   GITHUB',
-    url: 'https://regedit-manga-api.herokuapp.com/',
+    url: 'https://regedit-manga-api.herokuapp.com/graphql',
   },
   {
     id: nanoid(),
